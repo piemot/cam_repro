@@ -1,0 +1,39 @@
+[  +16 ms] Failed to initialize analytics reporting: FileSystemException: Cannot create file, path = '/Users/piemot/.flutter' (OS Error: Is a directory, errno = 21)
+[  +30 ms] Unable to locate an Android SDK.
+[  +31 ms] executing: sysctl hw.optional.arm64
+[  +12 ms] Exit code 1 from: sysctl hw.optional.arm64
+[        ] sysctl: unknown oid 'hw.optional.arm64'
+[ +282 ms] executing: sysctl hw.optional.arm64
+[  +29 ms] Exit code 1 from: sysctl hw.optional.arm64
+[   +1 ms] sysctl: unknown oid 'hw.optional.arm64'
+[        ] executing: xcrun xcodebuild -version
+[ +688 ms] Exit code 0 from: xcrun xcodebuild -version
+[        ] Xcode 14.3
+           Build version 14E222b
+[   +5 ms] executing: xcrun xcdevice list --timeout 5
+[  +13 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +5 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +74 ms] executing: xcrun xcdevice list --timeout 2
+[   +3 ms] xcrun simctl list devices booted iOS --json
+[        ] executing: xcrun simctl list devices booted iOS --json
+[   +4 ms] executing: xcrun simctl list devices booted
+[ +256 ms] Exit code 0 from: xcrun simctl list devices booted
+[        ] == Devices ==
+           -- iOS 16.4 --
+[ +456 ms] {
+             "devices" : {
+               "com.apple.CoreSimulator.SimRuntime.iOS-16-4" : [
+
+               ]
+             }
+           }
